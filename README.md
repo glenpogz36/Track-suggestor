@@ -16,4 +16,4 @@
 # For more LINK to GifHub https://github.com/glenpogz36/track-suggestor
 
 
-### Copyright@2018 Epicodus
+### https://github.com/glenpogz36/track-suggestor
