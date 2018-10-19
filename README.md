@@ -16,4 +16,4 @@
 # For more LINK to GifHub https://github.com/glenpogz36/track-suggestor
 
 
-### https://github.com/glenpogz36/track-suggestor
+### Legal copyright (c) 2018 Epicodus. This software is licensed under the MIT license.
