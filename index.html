@@ -8,77 +8,25 @@
   <body>
 
     <div class="container">
-      <h1><strong>Epicodus students</strong> must decide which track they would like to pursue before they enroll!</h1>
-        </b>
-
-          <form id="formInfo">
-            <div id="name" class="form-group">
-            <label class="control-label" for="nameInput"> <h3>Input your First & Last Name <h3></label>
-              <input type="text" class="form-control" id="nameInput">
+         <h1><strong>Epicodus students</strong> must decide which track they would like to pursue before they enroll!</h1>
+        <div>
+          <form id="formOne">
+            <div class="form-group">
+              <label for="name">Please Input your First and Last name!</label>
+              <input id="name" class="form-control" type="text">
             </div>
 
-            <div id="email" class="form-group">
-              <label class="control-label" for="emailInput"> <h3>Input your email address<h3></label>
-                <input type="text" class="form-control" id="emailInputlOneInput">
-            </div>
+            <button type="submit" class="btn">Submit!</button>
+          </form>
+        </div>
 
-              <div id="address" class="form-group">
-                <label class="control-label" for="AdressInput"> <h3>Input your Adress<h3></label>
-                  <input type="text" class="form-control" id="AdressInput">
-                </div>
-
-                <div id="interest" class="form-group">
-                  <label for="Interest"><h3>Interest</h3></label>
-                  <select class="form-control" id="interestInput">
-                    <option value="1">Internal Software</option>
-                    <option value="2">Processsing User Interface</option>
-                    <option value="3">Frameworks</option>
-                    <option value="4">Rails-Framework</option>
-                    <option value="5">Styling Management</option>
-                  </select>
-                </div>
-              </from>
-
-              <div id="C">
-                <p>C# is most popular among bigger established businesses, often for building internal software. Because it's been around for a long time and has the backing of Microsoft, it is one of the most in-demand languages in the job market. C# has also been going through a bit of a rebirth lately, with Microsoft open sourcing the language and surrounding platform, porting it to run on Mac and Linux, and incorporating many of the best features of other languages. If you like the idea of working for a larger company on business software, C# is a great choice.</p>
-              </div>
-
-              <div id="Java">
-                <p>Java is also a favorite of enterprise companies, but its appeal is broader as well: it's one of the most popular of all programming languages, and it's used in everything from for high-performance processing to building Android user interfaces. Because Java has been very popular for a very long time and is used in so many applications, it is also a very high-demand language. If you're interested in working for an enterprise-level company, as an Android developer, or in high-performance applications, Java could be a good language to learn.</p>
-              </div>
-
-              <div id="PHP">
-                <p>PHP is by far the most popular backend language today, with 80 percent of websites utilizing it 'server-side'. It is perhaps best known for it's use in content management systems like Wordpress, Drupal, and Joomla. But the versatility of the language and the frameworks it powers make employment options numerous and diverse. If you're keen to work for a fast paced agency that builds websites for lots of clients, or maintain the security and stability of a huge complex of government websites, or if you like the idea of building out small sites for brands, businesses, and organizations - In any of these cases, PHP would be a </p>
-              </div>
-
-              <div id="Ruby">
-                <p>Ruby is a favorite language of developers building interactive web applications. If an app involves users creating accounts, entering information, and interacting with dynamic content, there's a good chance it is built with Ruby. Ruby became popular because the Rails framework, which is written with Ruby, simplified many of the common tasks associated with building web applications. It's most popular with startups and smaller companies who are looking to build their product quickly.</p>
-
-              <b>
-
-                <p>Though each language has its niche, there is plenty of crossover. For example, Rails' popularity inspired copycats in just about every language, and so you'll see interactive web applications written in C#, Java, and PHP, with Rails-like frameworks including .NET MVC, Spring, and Laravel. Even at one company, you might find them using PHP for their marketing site, Ruby for their web application, and Java for their back-end processing.</p>
-              </div>
-
-              <div id="CSS">
-                <ul>
-                  <li><strong>History:</strong> CSS was created four years after HTML as an experiment to see whether developers and consumers wanted extra styling effects. At the time, it was unclear whether CSS would be useful, and only some major browsers supported it. As a result, CSS was created separately from HTML to allow developers to build sites using just HTML.</li>
-
-
-                  <li><strong>Code management:</strong> Initially, some CSS functionality overlapped with existing HTML functionality. However, specifying styling effects in HTML results in cluttered and messy code. For example, specifying a particular font typeface in HTML requires that you include the font typeface attribute in every paragraph (p) tag. Styling a single paragraph this way is easy, but applying the font to a series of paragraphs (or an entire page or website) quickly becomes tedious. By contrast, CSS requires the typeface to be specified only once, and it automatically applies to all paragraphs.This feature makes it easier for developers to write and maintain code. In addition, separating the styling of the content from the actual content itself has allowed search engines and other automated website agents to more easily process the content on web pages.</li>
-
-                <li><strong>Inertia:</strong> Currently millions of web pages use HTML and CSS separately, and every day that number grows. CSS started as a separate language, and it remains a separate language because its popularity continues to grow.</li>
-
-                </ul>
-              </div>
-
-
-              <img src="img/c.jpg" alt="c#">
-              <img src="img/css.jpg" alt="css">
-              <img src="img/java.jpg" alt="javascript">
-              <img src="img/php.jpg" alt="php">
-              <img src="img/ruby.jpg" alt="ruby">
-
-      <button id="submitbutton" type="submit" class="btn btn-info btn-lg">Submit</button>
+        <div id="letter">
+          <h1>Welcome to Epicodus</h1>
+          <p>Dear <span class="name"></span>, </p>
+          <p>Thankyou for choosing Epicodus!</p>
+          <p>Base on your Submission we rercommend:</p>
+        </div>
+      </div>
 
 
 
