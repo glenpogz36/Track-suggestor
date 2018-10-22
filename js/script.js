@@ -24,7 +24,7 @@ $(document).ready(function() {
 
     if (tracker === "C") {
        $("#C").show();
-      $("#CSS").show();
+      $("#CSS").hide();
        $("#Java").hide();
        $("#PHP").hide();
        $("#Ruby").hide();
@@ -34,7 +34,7 @@ $(document).ready(function() {
       $("#Java").show();
       $("#PHP").hide();
       $("#Ruby").hide();
-      $("#CSS").show();
+      $("#CSS").hide();
     } else if (tracker === "PHP") {
       $("#C").hide();
       $("#Java").hide();
