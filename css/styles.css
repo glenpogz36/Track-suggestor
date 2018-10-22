@@ -1,6 +1,50 @@
 #letter1 {
   display: none;
+  font-weight: bold;
+  font-family: cursive;
+  color: green;
+  font-size: 30px;
 }
 #letter2 {
   display: none;
+  font-weight: bold;
+  font-style: italic;
+  color: brown;
+  font-size: 30px;
+}
+.container{
+  background: skyblue;
+}
+#CSS{
+  display: none;
+  color: white;
+}
+#C {
+  display: none;
+  color: grey;
+}
+ #Java {
+  display: none;
+}
+ #PHP {
+  display: none;
+  color: #800080;
+}
+#Ruby {
+ display: none;
+ color: red;
+}
+p {
+  font-size: 20px;
+}
+.img{
+  text-align: center;
+}
+h1 {
+  font-size: 40px;
+  color: blue;
+}
+h2 {
+  font-size: 40px;
+  color: pink;
 }
