@@ -28,7 +28,7 @@ $(document).ready(function() {
        $("#PHP").hide();
        $("#Ruby").hide();
 
-    } else if (questionare === "Android" &&    questionare != "Microsoft" || questionare != "Facebook") {
+    } else if (questionare === "Android" && questionare != "Microsoft" || questionare != "Facebook") {
       $("#C").hide();
       $("#Java").show();
       $("#PHP").hide();
