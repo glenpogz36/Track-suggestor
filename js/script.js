@@ -17,23 +17,24 @@ $(document).ready(function() {
     $(function(){
       $("#formOne").submit(function(event) {
         event.preventDefault();
-        var tracker = $("input:radio[name=tracker]:checked").val();
+        var questionare = $("input:radio[name=company]:checked").val();
 
 
-    if (tracker === "C") {
+
+    if (questionare === "Microsoft") {
        $("#C").show();
       $("#CSS").hide();
        $("#Java").hide();
        $("#PHP").hide();
        $("#Ruby").hide();
 
-    } else if (tracker === "Java") {
+    } else if (questionare === "Android" &&    questionare != "Microsoft" || questionare != "Facebook") {
       $("#C").hide();
       $("#Java").show();
       $("#PHP").hide();
       $("#Ruby").hide();
       $("#CSS").hide();
-    } else if (tracker === "PHP") {
+    } else {
       $("#C").hide();
       $("#Java").hide();
       $("#PHP").show();
