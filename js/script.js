@@ -3,13 +3,11 @@ $(document).ready(function() {
     var name = $("input#name").val();
     $(".name").text(name);
     $("#letter1").show();
-
-
-    event.preventDefault();
   });
 });
 $(document).ready(function() {
   $("#formOne").submit(function(event) {
+    event.preventDefault();
     var address = $("input#address").val();
     $(".address").text(address);
         $("#letter2").show();
