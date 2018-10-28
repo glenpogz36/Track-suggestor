@@ -17,18 +17,18 @@ $(document).ready(function() {
     $(function(){
       $("#formOne").submit(function(event) {
         event.preventDefault();
-        var questionare = $("input:radio[name=company]:checked").val();
+        var company = $("input:radio[name=company]:checked").val();
 
 
 
-    if (questionare === "Microsoft") {
+    if (company === "Microsoft") {
        $("#C").show();
       $("#CSS").hide();
        $("#Java").hide();
        $("#PHP").hide();
        $("#Ruby").hide();
 
-    } else if (questionare === "Android" && questionare != "Microsoft" || questionare != "Facebook") {
+    } else if (company === "Android" && company != "Microsoft" || company != "Facebook") {
       $("#C").hide();
       $("#Java").show();
       $("#PHP").hide();
@@ -44,4 +44,70 @@ $(document).ready(function() {
 
     }
   });
+});
+
+
+
+$(function(){
+  $("#formOne").submit(function(event) {
+    event.preventDefault();
+    var enjoy = $("input:radio[name=enjoy]:checked").val();
+
+
+
+if (enjoy === "software") {
+   $("#C").show();
+  $("#CSS").hide();
+   $("#Java").hide();
+   $("#PHP").hide();
+   $("#Ruby").show();
+
+} else if (enjoy === "interface" && enjoy != "software" || enjoy != "Frameworks") {
+  $("#C").hide();
+  $("#Java").show();
+  $("#PHP").hide();
+  $("#Ruby").show();
+  $("#CSS").hide();
+} else {
+  $("#C").hide();
+  $("#Java").hide();
+  $("#PHP").show();
+  $("#Ruby").show();
+  $("#CSS").show();
+
+
+}
+});
+});
+
+$(function(){
+  $("#formOne").submit(function(event) {
+    event.preventDefault();
+    var visual = $("input:radio[name=learner]:checked").val();
+
+
+
+if (visual === "Visual") {
+   $("#C").show();
+  $("#CSS").hide();
+   $("#Java").hide();
+   $("#PHP").show();
+   $("#Ruby").hide();
+
+} else if (visual === "Audiotory" && visual != "Visual" || visual != "Kinestetic") {
+  $("#C").hide();
+  $("#Java").show();
+  $("#PHP").show();
+  $("#Ruby").hide();
+  $("#CSS").hide();
+} else {
+  $("#C").hide();
+  $("#Java").hide();
+  $("#PHP").show();
+  $("#Ruby").show();
+  $("#CSS").show();
+
+
+}
+});
 });
